@@ -9,13 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task10/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task13/Task13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task15/Task15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task16/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task18/Task18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task4/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/task7/Task7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task19/Task19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task21/Task21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task23/Task23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task26/Task26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task1/Outer$Inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task1/Outer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task1/Task1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task19/A$B$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task19/A$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task19/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task19/Task19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task21/A$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task21/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task21/Task21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task23/A$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task23/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task23/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task23/Task23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task23/U.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task4/Selector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task4/Sequence$SequenceSelector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task4/Sequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/inner_classes/task4/Task4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rilcRbX3ZBKiyyuGmC73OU4uyM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,41 +67,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Survey" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.Task18">
-    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task10.Task10" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="inner_classes.task26" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Task23">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_classes.task1.Task1" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.task10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task15.Task15" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.task15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task16.Task16" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.task16.*" />
+          <option name="PATTERN" value="inner_classes.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task4.Task4" />
+    <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_classes.task21.Task21" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.task4.*" />
+          <option name="PATTERN" value="inner_classes.task21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_classes.task23.Task23" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inner_classes.task23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inner_classes.task4.Task4" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inner_classes.task4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task18" />
-        <item itemvalue="Application.Task16" />
-        <item itemvalue="Application.Task15" />
-        <item itemvalue="Application.Task10" />
+        <item itemvalue="Application.Task23" />
+        <item itemvalue="Application.Task21" />
         <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Task18" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +172,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src" />
+    </ignored-roots>
   </component>
 </project>
