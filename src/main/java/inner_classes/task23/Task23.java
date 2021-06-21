@@ -59,7 +59,7 @@ class A {
 }
 
 class B {
-    private static List<Object> list = new ArrayList<>();
+    private static List<U> list = new ArrayList<>();
 
     public void put(U u){
         list.add(u);
@@ -75,10 +75,10 @@ class B {
 
     public void get(){
 
-        for (Object q : list){
-            ((U) q).one();
-            ((U) q).two();
-            ((U) q).three();
+        for (U q : list){
+            q.one();
+            q.two();
+            q.three();
         }
 
     }

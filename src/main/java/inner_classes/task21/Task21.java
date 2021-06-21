@@ -13,25 +13,30 @@ public class Task21 {
 
 interface A {
     void f();
+
     void g();
 
-     class B implements A {
 
-        @Override
-        public void f() {
-            System.out.println("f");
+    class B {
+
+        static void print() {
+            C c = new C();
+            c.f();
+            c.g();
+
         }
+    }
+}
 
-        @Override
-        public void g() {
-            System.out.println("g");
-        }
+class C implements A {
+    @Override
+    public void f() {
+        System.out.println("f");
+    }
 
-         static void print(){
-            new B().f();
-            new B().g();
-
-         }
+    @Override
+    public void g() {
+        System.out.println("g");
     }
 }
 
