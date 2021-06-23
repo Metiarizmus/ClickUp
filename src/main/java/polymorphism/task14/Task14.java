@@ -24,36 +24,40 @@ public class Task14 {
 }
 
 class Gener {
-    private int count = 0;
+
     private static long counter = 0;
     private final long id = counter++;
 
-    public void addCount(){
-        count++;
+    public void addCount() {
+        counter++;
     }
 
-    public String toString() { return "Gener " + id; }
+    Gener() {
+        addCount();
+    }
+    public String toString() {
+        return "Gener " + id;
+    }
 
 }
+
 class Rodent {
     private Gener gener;
     private static long counter = 0;
     private final long id = counter++;
-    void loud(){
+
+    void loud() {
 
     }
-    private String mes = "check static mes from Rodent";
 
-    Rodent(Gener gener){
+
+    Rodent(Gener gener) {
         System.out.println("Creating " + this);
-        this.gener=gener;
+        this.gener = gener;
         this.gener.addCount();
-        System.out.println(mes);
-        mes = "000";
-        System.out.println("Hi from Rodent");
-        System.out.println(mes);
 
     }
+
 
     @Override
     public String toString() {
@@ -65,13 +69,10 @@ class Rodent {
 
 class Mouse extends Rodent {
 
-    Gener gener;
     private static String mes = "check static mes from Mouse";
 
-    Mouse(Gener gener){
+    Mouse(Gener gener) {
         super(gener);
-        this.gener=gener;
-        gener.addCount();
     }
 
     @Override
@@ -81,15 +82,16 @@ class Mouse extends Rodent {
     }
 
     public String toString() {
-        return  "Mouse, " + super.toString();
+        return "Mouse, " + super.toString();
     }
 }
 
 class Gerbil extends Rodent {
-    Gerbil(Gener gener){
+
+    Gerbil(Gener gener) {
         super(gener);
-        gener.addCount();
     }
+
     private static String mes = "check static mes from Gerbil";
 
     @Override
@@ -107,9 +109,10 @@ class Hamster extends Rodent {
 
     Hamster(Gener gener) {
         super(gener);
-        gener.addCount();
     }
+
     private static String mes = "check static mes from Hamster";
+
     @Override
     void loud() {
         System.out.println("Im a hamster");

@@ -9,13 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task1_1/Other.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inner_classes/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inner_classes/task21/Task21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task21/Task21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inner_classes/task1/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/task10/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/task10/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/task12/Task12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/task12/Task12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/polymorphism/task14/Task14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/task14/Task14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
       <recent name="inner_classes.task26" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task23">
+  <component name="RunManager" selected="Application.Task14">
     <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inner_classes.task1.Task1" />
       <module name="ClickUp" />
@@ -68,12 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.task18.Task18" />
+    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.task10.Task10" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfaces.task18.*" />
+          <option name="PATTERN" value="polymorphism.task10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.task14.Task14" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="polymorphism.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,26 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inner_classes.task4.Task4" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inner_classes.task4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task14" />
+        <item itemvalue="Application.Task10" />
         <item itemvalue="Application.Task23" />
         <item itemvalue="Application.Task21" />
         <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Task4" />
-        <item itemvalue="Application.Task18" />
       </list>
     </recent_temporary>
   </component>

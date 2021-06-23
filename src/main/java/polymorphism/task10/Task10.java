@@ -7,8 +7,13 @@ Create an object of the derived class, upcast it to the base type, and call the 
 */
 public class Task10 {
     public static void main(String[] args) {
-        A a = new B();
+
+        B b = new B();
+
+        A a = (B) b;
+
         a.one();
+
     }
 }
 

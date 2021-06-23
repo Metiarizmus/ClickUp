@@ -31,44 +31,60 @@ class Rodent {
     void loud(){
 
     }
-    private String mes = "check static mes from Rodent";
 
    Rodent(){
-       System.out.println(mes);
-       mes = "000";
+       System.out.println(mes());
+       String s = mes() + "000";
        System.out.println("Hi from Rodent");
-       System.out.println(mes);
+       System.out.println(s);
 
+   }
+
+   String mes() {
+       String s = "check static mes from Rodent";
+       return s;
    }
 
 }
 
 class Mouse extends Rodent {
 
-    private static String mes = "check static mes from Mouse";
-
     @Override
     void loud() {
         System.out.println("Im a mouse");
-        System.out.println(mes);
+        System.out.println(mes());
+    }
+
+    String mes() {
+        String mes = "check static mes from Mouse";
+        return mes;
     }
 }
 
 class Gerbil extends Rodent {
-    private static String mes = "check static mes from Gerbil";
 
     @Override
     void loud() {
         System.out.println("Im a gerbil");
-        System.out.println(mes);
+        System.out.println(mes());
+    }
+
+    @Override
+    String mes() {
+        return "check static mes from Gerbil";
     }
 }
 
 class Hamster extends Rodent{
-    private static String mes = "check static mes from Hamster";
+
     @Override
     void loud() {
         System.out.println("Im a hamster");
-        System.out.println(mes);
+        System.out.println(mes());
+    }
+
+    @Override
+    String mes() {
+        return "check static mes from Hamster";
     }
 }
