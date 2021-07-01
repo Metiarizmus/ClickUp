@@ -1,7 +1,7 @@
 package inner_classes.task1_1;
 
 
-public class Other {
+public class Other1 {
 
      public class Inner {
         public Inner(){
