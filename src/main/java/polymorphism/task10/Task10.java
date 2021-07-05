@@ -10,9 +10,7 @@ public class Task10 {
 
         B b = new B();
 
-        A a = (B) b;
-
-        a.one();
+        ((A)b).one();
 
     }
 }
