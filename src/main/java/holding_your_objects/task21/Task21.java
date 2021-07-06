@@ -24,7 +24,9 @@ public class Task21 {
         }
 
         System.out.println(map);
+
     }
+
 
 
 
@@ -37,12 +39,10 @@ public class Task21 {
 
                 while (line != null) {
                     sb.append(line);
-                    sb.append(System.lineSeparator());
                     line = br.readLine();
                 }
-                String everything = sb.toString();
 
-                return everything;
+                return String.valueOf(sb);
             } catch (IOException e) {
                 e.printStackTrace();
             }

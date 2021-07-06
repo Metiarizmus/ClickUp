@@ -12,7 +12,8 @@ Java, count and display the number of vowels in each input word, and also displa
 */
 public class Task16 {
 
-    private static char[] mass = {'a', 'e', 'y', 'u', 'i', 'o', 'A', 'E', 'Y', 'U', 'I', 'O'};
+    private static Character[] mass = {'a', 'e', 'y', 'u', 'i', 'o', 'A', 'E', 'Y', 'U', 'I', 'O'};
+    private static Set<Character> vowels = new HashSet(Arrays.asList(mass));
 
     public static void main(String[] args) {
 
@@ -24,77 +25,68 @@ public class Task16 {
 
         System.out.println(countVowels(list));
 
-        System.out.println(fileCountVowels());
+        System.out.println(fileCountVowels("G:/csvInput.txt"));
 
     }
 
     static Map<String, Integer> countVowels(List<String> list) {
-
         if (list != null) {
-            Integer count = 0;
+
             Map<String, Integer> map = new HashMap<>();
+            int c = 0;
 
-            for (int i = 0; i < list.size(); i++) {
-                char[] chars = list.get(i).toCharArray();
-
-                for (int j = 0; j < chars.length; j++) {
-
-                    for (Character q : mass) {
-
-                        if (q == (chars[j])) {
-                            count++;
-                        }
-
+            for (String q : list) {
+                for (char symbol : q.toCharArray()) {
+                    if (vowels.contains(symbol)) {
+                        c++;
                     }
                 }
-                map.put(list.get(i), count);
-                count = 0;
+                map.put(q, c);
+                c = 0;
             }
-
             return map;
         }
-
         return null;
+
     }
 
     static String fileReading(String path) {
 
-        if (path != null) {
-            try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-                StringBuilder sb = new StringBuilder();
-                String line = br.readLine();
+        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+            StringBuilder sb = new StringBuilder();
+            String line = br.readLine();
 
-                while (line != null) {
-                    sb.append(line);
-                    sb.append(System.lineSeparator());
-                    line = br.readLine();
-                }
-                String everything = sb.toString();
-
-                return everything;
-            } catch (IOException e) {
-                e.printStackTrace();
+            while (line != null) {
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = br.readLine();
             }
+            String everything = sb.toString();
+
+            return everything;
+        } catch (IOException e) {
+            e.printStackTrace();
         }
+
         return null;
 
     }
 
 
-    static int fileCountVowels() {
-        char[] chars = fileReading("G:/csvInput.txt").toCharArray();
+    static int fileCountVowels(String p) {
 
-        int c = 0;
-        for (int i = 0; i < chars.length; i++) {
+        if (p != null) {
 
-            for (int j = 0; j < mass.length; j++) {
+            int c = 0;
 
-                if (chars[i] == mass[j]) {
+            for (char q : fileReading(p).toCharArray()) {
+                if (vowels.contains(q)) {
                     c++;
                 }
             }
-        }
 
-        return c;
+            return c;
+        }
+        return 0;
     }
 }

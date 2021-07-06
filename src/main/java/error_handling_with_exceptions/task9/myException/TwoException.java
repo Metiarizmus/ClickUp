@@ -1,2 +1,4 @@
-package error_handling_with_exceptions.task9.myException;public class TwoException {
+package error_handling_with_exceptions.task9.myException;
+
+public class TwoException extends NullPointerException{
 }

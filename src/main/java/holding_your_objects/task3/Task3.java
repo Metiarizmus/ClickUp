@@ -8,56 +8,59 @@ Exercise 3: (2) Modify innerclasses/Sequence.java so that you can add any number
 */
 public class Task3 {
     public static void main(String[] args) {
-        Sequence sequence = new Sequence();
+        Sequence<Integer> sequence = new Sequence<>();
 
-        for (int i = 0; i < 10; i++)
-            sequence.add(Integer.toString(i));
+        for (int i = 0; i < 10; i++) sequence.add(i);
 
-        Selector selector = sequence.selector();
+
+        Selector<Integer> selector = new SequenceSelector<>();
 
         while (!selector.end()) {
             System.out.print(selector.current() + " ");
             selector.next();
         }
+
+
     }
 }
 
 
-interface Selector {
+interface Selector<E> {
     boolean end();
 
-    Object current();
+    E current();
 
     void next();
 }
 
- class Sequence {
+ class Sequence<E> {
 
     private static List<Object> items = new ArrayList<>();
-    private int next = 0;
 
-    public void add(Object x) {
+    public void add(E x) {
             items.add(x);
     }
 
-    private class SequenceSelector implements Selector {
-        private int i = 0;
+     public List<Object> getItems() {
+         return items;
+     }
+ }
 
-        public boolean end() {
-            return i == items.size();
-        }
+ class SequenceSelector<E>  implements Selector<E> {
 
-        public Object current() {
-            return items.get(i);
-        }
+    private Sequence<E> s = new Sequence();
 
-        public void next() {
-            if (i < items.size()) i++;
-        }
+    private int i = 0;
+
+    public boolean end() {
+        return i == s.getItems().size();
     }
 
-    public Selector selector() {
-        return new SequenceSelector();
+    public E current() {
+        return (E) s.getItems().get(i);
     }
 
+    public void next() {
+        if (i < s.getItems().size()) i++;
+    }
 }

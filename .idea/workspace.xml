@@ -9,21 +9,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task11/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task14/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task16/Task16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task18/Task18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task21/Task21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task3/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task5/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task7/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task9/Task9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inner_classes/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task1/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inner_classes/task1_1/Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inner_classes/task1_1/Other1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inner_classes/task1/Task1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1_1/Other$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inner_classes/task1_1/Other.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task10/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task10/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task13/Task13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task13/Task13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task2/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/OneException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/OneException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/ThreeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/ThreeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/TwoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task9/myException/TwoException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/holding_your_objects/task16/Task16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task16/Task16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/holding_your_objects/task21/Task21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task21/Task21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/holding_your_objects/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/holding_your_objects/task9/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task9/Task9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Selector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Selector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Sequence$SequenceSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Sequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/holding_your_objects/task3/Task3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/task10/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/task10/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/task10/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/task10/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/polymorphism/task10/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/polymorphism/task10/Task10.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,34 +59,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Survey" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="inner_classes.task26" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Task21">
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task11.Task11" />
+    <configuration name="Task10 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="polymorphism.task10.Task10" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="holding_your_objects.task11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task14.Task14" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="holding_your_objects.task14.*" />
+          <option name="PATTERN" value="polymorphism.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task18.Task18" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="holding_your_objects.task18.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="holding_your_objects.task21.Task21" />
       <module name="ClickUp" />
@@ -128,13 +111,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task3.Task3" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="holding_your_objects.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task7.Task7" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="holding_your_objects.task7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task21" />
-        <item itemvalue="Application.Task18" />
         <item itemvalue="Application.Task16" />
-        <item itemvalue="Application.Task14" />
-        <item itemvalue="Application.Task11" />
+        <item itemvalue="Application.Task7" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task10 (1)" />
       </list>
     </recent_temporary>
   </component>

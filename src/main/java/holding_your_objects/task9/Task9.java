@@ -1,7 +1,9 @@
 package holding_your_objects.task9;
 
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 
 /*
@@ -10,7 +12,7 @@ Exercise 9: (4) Modify innerclasses/Sequence.java so that Sequence works with an
 public class Task9 {
     public static void main(String[] args) {
 
-        Sequence sequence = new Sequence(10);
+        Sequence sequence = new Sequence();
         for(int i = 0; i < 10; i++) {
             sequence.add(Integer.toString(i));
         }
@@ -25,18 +27,12 @@ public class Task9 {
 }
 
 
-class Sequence {
-    private Object[] items;
+class Sequence<T> {
+    private List<T> items = new ArrayList<>();
     private int next = 0;
 
-    public Sequence(int size) {
-        items = new Object[size];
-        System.out.println("its sequence");
-    }
-
-    public void add(Object x) {
-        if (next < items.length)
-            items[next++] = x;
+    public void add(T x) {
+        items.add(x);
     }
 
     public Iterator<Object> iterator() {
@@ -49,13 +45,13 @@ class Sequence {
 
         @Override
         public boolean hasNext() {
-            return index < items.length;
+            return index < items.size();
         }
 
         @Override
         public Object next() {
             if (hasNext()) {
-                return items[index++];
+                return items.get(index++);
             }
             return null;
         }
