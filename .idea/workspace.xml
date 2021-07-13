@@ -9,15 +9,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task20/Task20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task25/Task25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task25/exceptions/OneExc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task25/exceptions/ThreeExc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task25/exceptions/TwoExc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task29/Task29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task10/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task19/HelperPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task19/Task19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task20/Task20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task5/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task6/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/task7/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task13/Task13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions/task13/Task13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task13/Task13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task13/Task13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/BaseballException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/BaseballException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Foul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Foul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Inning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Inning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/PopFoul.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/PopFoul.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/RainedOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/RainedOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/StormException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/StormException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/StormyInning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/StormyInning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Strike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Strike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Task20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/error_handling_with_exceptions/task20/Task20.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +59,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/error_handling_with_exceptions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/strings" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -57,16 +68,17 @@
       <recent name="inner_classes.task26" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\strings" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Task20">
-    <configuration name="Task13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="error_handling_with_exceptions.task13.Task13" />
+    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.task10.Task10" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="error_handling_with_exceptions.task13.*" />
+          <option name="PATTERN" value="strings.task19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task16.Task16" />
+    <configuration name="Task19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.task19.Task19" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="holding_your_objects.task16.*" />
+          <option name="PATTERN" value="strings.task19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +100,11 @@
       </method>
     </configuration>
     <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="error_handling_with_exceptions.task20.Task20" />
+      <option name="MAIN_CLASS_NAME" value="strings.task20.Task20" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="error_handling_with_exceptions.task20.*" />
+          <option name="PATTERN" value="strings.task20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task21.Task21" />
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.task6.Task6" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="holding_your_objects.task21.*" />
+          <option name="PATTERN" value="strings.task6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task7.Task7" />
+      <option name="MAIN_CLASS_NAME" value="strings.task7.Task7" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="holding_your_objects.task7.*" />
+          <option name="PATTERN" value="strings.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,10 +141,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Task20" />
-        <item itemvalue="Application.Task13" />
-        <item itemvalue="Application.Task21" />
-        <item itemvalue="Application.Task16" />
+        <item itemvalue="Application.Task19" />
+        <item itemvalue="Application.Task10" />
         <item itemvalue="Application.Task7" />
+        <item itemvalue="Application.Task6" />
       </list>
     </recent_temporary>
   </component>
