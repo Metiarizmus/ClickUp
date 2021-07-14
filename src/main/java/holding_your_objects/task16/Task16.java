@@ -17,19 +17,20 @@ public class Task16 {
 
     public static void main(String[] args) {
 
+        Task16 t = new Task16();
 
         List<String> list = new ArrayList<>();
         list.add("welcom");
         list.add("cinema");
         list.add("AAOOYYE");
 
-        System.out.println(countVowels(list));
+        System.out.println(t.countVowels(list));
 
         System.out.println(fileCountVowels("G:/csvInput.txt"));
 
     }
 
-    static Map<String, Integer> countVowels(List<String> list) {
+     Map<String, Integer> countVowels(List<String> list) {
         if (list != null) {
 
             Map<String, Integer> map = new HashMap<>();
@@ -58,12 +59,10 @@ public class Task16 {
 
             while (line != null) {
                 sb.append(line);
-                sb.append(System.lineSeparator());
                 line = br.readLine();
             }
-            String everything = sb.toString();
 
-            return everything;
+            return sb.toString();
         } catch (IOException e) {
             e.printStackTrace();
         }
