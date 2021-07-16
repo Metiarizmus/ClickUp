@@ -9,8 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task10/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task20/Task20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task24/Task24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task25/Task25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task4/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/task9/Task9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/type_information/tets_to25/Test25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/holding_your_objects/task16/Task16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/holding_your_objects/task16/Task16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/holding_your_objects/task16/Task16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/holding_your_objects/task16/Task16.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/strings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/type_information" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -50,43 +57,18 @@
       <recent name="inner_classes.task26" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\type_information" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\strings" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task16">
+  <component name="RunManager" selected="Application.Test25">
     <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task10.Task10" />
+      <option name="MAIN_CLASS_NAME" value="type_information.task10.Task10" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.task19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="holding_your_objects.task16.Task16" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="holding_your_objects.task16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task19.Task19" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.task19.*" />
+          <option name="PATTERN" value="type_information.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task20.Task20" />
+      <option name="MAIN_CLASS_NAME" value="type_information.task20.Task20" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.task20.*" />
+          <option name="PATTERN" value="type_information.task20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +89,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task7.Task7" />
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type_information.task4.Task4" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.task7.*" />
+          <option name="PATTERN" value="type_information.task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type_information.task9.Task9" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="type_information.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type_information.tets_to25.Test25" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="type_information.tets_to25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task16" />
-        <item itemvalue="Application.Task19" />
+        <item itemvalue="Application.Test25" />
         <item itemvalue="Application.Task20" />
         <item itemvalue="Application.Task10" />
-        <item itemvalue="Application.Task7" />
+        <item itemvalue="Application.Task9" />
+        <item itemvalue="Application.Task4" />
       </list>
     </recent_temporary>
   </component>
