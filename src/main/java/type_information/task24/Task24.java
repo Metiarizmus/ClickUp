@@ -1,5 +1,7 @@
 package type_information.task24;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 
@@ -8,25 +10,32 @@ public class Task24 {
     public static void main(String[] args) {
 
 
-      /*  for(int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
             System.out.println(Part.createRandom());
-*/
+
 
     }
 }
 
-/*
+interface Factory<T> {
+    T create();
+}
+
 class Part {
+
     public String toString() {
         return getClass().getSimpleName();
     }
 
+    public boolean isNull() {
+        return false;
+    }
+
     static List<Factory<? extends Part>> partFactories =
-            new ArrayList<Factory<? extends Part>>();
+            new ArrayList<>();
 
     static {
-// Collections.addAll() gives an "unchecked generic
-// array creation ... for varargs parameter" warning.
+
         partFactories.add(new FuelFilter.Factory());
         partFactories.add(new AirFilter.Factory());
         partFactories.add(new CabinAirFilter.Factory());
@@ -40,7 +49,23 @@ class Part {
 
     public static Part createRandom() {
         int n = rand.nextInt(partFactories.size());
+
         return partFactories.get(n).create();
+    }
+}
+
+class NullPart extends Part {
+
+    public String toString() {
+        return "Null object";
+    }
+
+    public boolean isNull() {
+        return true;
+    }
+
+    public static Part createRandom() {
+        return new NullPart();
     }
 }
 
@@ -48,9 +73,10 @@ class Filter extends Part {
 }
 
 class FuelFilter extends Filter {
-    // Create a Class Factory for each specific type:
+
     public static class Factory
-            implements typeinfo.factory.Factory<FuelFilter> {
+            implements type_information.task24.Factory<FuelFilter> {
+
         public FuelFilter create() {
             return new FuelFilter();
         }
@@ -59,7 +85,8 @@ class FuelFilter extends Filter {
 
 class AirFilter extends Filter {
     public static class Factory
-            implements typeinfo.factory.Factory<AirFilter> {
+            implements type_information.task24.Factory<AirFilter> {
+
         public AirFilter create() {
             return new AirFilter();
         }
@@ -68,7 +95,8 @@ class AirFilter extends Filter {
 
 class CabinAirFilter extends Filter {
     public static class Factory
-            implements typeinfo.factory.Factory<CabinAirFilter> {
+            implements type_information.task24.Factory<CabinAirFilter> {
+
         public CabinAirFilter create() {
             return new CabinAirFilter();
         }
@@ -77,7 +105,8 @@ class CabinAirFilter extends Filter {
 
 class OilFilter extends Filter {
     public static class Factory
-            implements typeinfo.factory.Factory<OilFilter> {
+            implements type_information.task24.Factory<OilFilter> {
+
         public OilFilter create() {
             return new OilFilter();
         }
@@ -89,7 +118,8 @@ class Belt extends Part {
 
 class FanBelt extends Belt {
     public static class Factory
-            implements typeinfo.factory.Factory<FanBelt> {
+            implements type_information.task24.Factory<FanBelt> {
+
         public FanBelt create() {
             return new FanBelt();
         }
@@ -98,7 +128,8 @@ class FanBelt extends Belt {
 
 class GeneratorBelt extends Belt {
     public static class Factory
-            implements typeinfo.factory.Factory<GeneratorBelt> {
+            implements type_information.task24.Factory<GeneratorBelt> {
+
         public GeneratorBelt create() {
             return new GeneratorBelt();
         }
@@ -107,9 +138,10 @@ class GeneratorBelt extends Belt {
 
 class PowerSteeringBelt extends Belt {
     public static class Factory
-            implements typeinfo.factory.Factory<PowerSteeringBelt> {
+            implements type_information.task24.Factory<PowerSteeringBelt> {
+
         public PowerSteeringBelt create() {
             return new PowerSteeringBelt();
         }
     }
-}*/
+}

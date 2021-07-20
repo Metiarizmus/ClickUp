@@ -10,22 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task10/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task10/Task10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task2/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task21/Task21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task21/Task21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task33/Task33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task33/Task33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task34/Task34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task34/Task34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/task19/Task19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/task19/Task19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/task20/Task20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/task20/Task20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/task7/Task7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/task7/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/type_information/task24/Task24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type_information/task24/Task24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/task19/Task19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/task19/Task19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/task19/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/task19/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/task20/Task20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/task20/Task20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/task20/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/task20/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strings/task7/Task7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strings/task7/Task7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/type_information/tets_to25/Test25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/type_information/tets_to25/Test25.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +56,7 @@
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task20">
+  <component name="RunManager" selected="Application.Task24">
     <configuration name="Task19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.task19.Task19" />
       <module name="ClickUp" />
@@ -98,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.task21.Task21" />
+    <configuration name="Task24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="type_information.task24.Task24" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.task21.*" />
+          <option name="PATTERN" value="type_information.task24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task24" />
         <item itemvalue="Application.Task20" />
         <item itemvalue="Application.Task19" />
         <item itemvalue="Application.Task7" />
         <item itemvalue="Application.Task33" />
-        <item itemvalue="Application.Task21" />
       </list>
     </recent_temporary>
   </component>
