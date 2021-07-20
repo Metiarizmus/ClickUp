@@ -12,7 +12,8 @@ public class Task20 {
     public static void main(String[] args) {
 
         Test t = new Test("1 23 3.14 5.1543 qwe");
-        System.out.println(t);
+        Test t1 = new Test("123/12345/123.34;125.3456745[Hello");
+        System.out.println(t1);
 
     }
 }
@@ -25,8 +26,11 @@ class Test {
     private String st;
 
     public Test(String string) {
+
         Scanner scanner = new Scanner(string);
-        String[] s = scanner.nextLine().split(" ");
+        String[] s = scanner.nextLine().split("[^\\w.]");
+
+
         i = Integer.parseInt(s[0]);
         l = Long.parseLong(s[1]);
         f = Float.parseFloat(s[2]);
