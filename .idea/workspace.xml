@@ -9,8 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/task37/Task37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/task38/Task38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/generics/task40/Task40.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/type_information/task24/Task24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/type_information/task24/Task24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/generics/task34/Task34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/generics/task34/Task34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generics/task34/Task34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task34/Task34.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,33 +60,7 @@
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task24">
-    <configuration name="Task19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task19.Task19" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.task19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task20.Task20" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.task20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task40">
     <configuration name="Task24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="type_information.task24.Task24" />
       <module name="ClickUp" />
@@ -96,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.task33.Task33" />
+    <configuration name="Task34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.task34.Task34" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.task33.*" />
+          <option name="PATTERN" value="generics.task34.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +87,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.task7.Task7" />
+    <configuration name="Task37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.task37.Task37" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.task7.*" />
+          <option name="PATTERN" value="generics.task37.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.task38.Task38" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.task38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics.task40.Task40" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="generics.task40.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task40" />
+        <item itemvalue="Application.Task38" />
+        <item itemvalue="Application.Task37" />
+        <item itemvalue="Application.Task34" />
         <item itemvalue="Application.Task24" />
-        <item itemvalue="Application.Task20" />
-        <item itemvalue="Application.Task19" />
-        <item itemvalue="Application.Task7" />
-        <item itemvalue="Application.Task33" />
       </list>
     </recent_temporary>
   </component>
