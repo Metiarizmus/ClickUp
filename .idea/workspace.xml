@@ -9,22 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task11/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task18/Task18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task20/Task20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task21/Task21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task22/Task22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task5/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/task9/Task9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task11/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task27/Task27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task3/Countries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task30/Task30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task7/Task7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/Apply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/Apply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/FilledList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/FilledList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/SimpleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/SimpleQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/Square.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/Square.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generics/task40/Task40.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generics/task40/Task40.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/arrays" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/containers_in_Depth" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
@@ -64,20 +55,20 @@
       <recent name="inner_classes.task26" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\containers_in_Depth" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\arrays" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\generics" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\type_information" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\strings" />
-      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\error_handling_with_exceptions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task22">
-    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task18.Task18" />
+  <component name="RunManager" selected="Application.Task30">
+    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers_in_Depth.task11.Task11" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task18.*" />
+          <option name="PATTERN" value="containers_in_Depth.task11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task20 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="type_information.task20.Task20" />
+    <configuration name="Task27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers_in_Depth.task27.Task27" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="type_information.task20.*" />
+          <option name="PATTERN" value="containers_in_Depth.task27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task20.Task20" />
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers_in_Depth.task3.Task3" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task20.*" />
+          <option name="PATTERN" value="containers_in_Depth.task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task21.Task21" />
+    <configuration name="Task30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers_in_Depth.task30.Task30" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task21.*" />
+          <option name="PATTERN" value="containers_in_Depth.task30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task22.Task22" />
+    <configuration name="Task7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containers_in_Depth.task7.Task7" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task22.*" />
+          <option name="PATTERN" value="containers_in_Depth.task7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task22" />
-        <item itemvalue="Application.Task21" />
-        <item itemvalue="Application.Task20 (1)" />
-        <item itemvalue="Application.Task20" />
-        <item itemvalue="Application.Task18" />
+        <item itemvalue="Application.Task30" />
+        <item itemvalue="Application.Task27" />
+        <item itemvalue="Application.Task11" />
+        <item itemvalue="Application.Task7" />
+        <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
   </component>
