@@ -15,6 +15,5 @@ public class Task3 {
 
         debug("hi one");
         debug();
-
     }
 }
