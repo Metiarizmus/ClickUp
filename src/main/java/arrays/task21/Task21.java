@@ -28,12 +28,12 @@ public class Task21 {
         }));
 
         System.out.println(Arrays.toString(b));
-
     }
 }
 
 //I changed the class a little for comfort
 class BerylliumSphere implements Comparable<BerylliumSphere>{
+
 
     private int id;
 

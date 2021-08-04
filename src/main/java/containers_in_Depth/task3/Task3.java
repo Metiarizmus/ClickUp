@@ -13,16 +13,20 @@ public class Task3 {
         Set linkedHashSet = new LinkedHashSet();
         Set treeSet = new TreeSet();
 
-        for (String[] q : Countries.DATA){
-            for (String qq : q){
-                hashSet.add(qq);
-                hashSet.add(qq);
-                linkedHashSet.add(qq);
-                linkedHashSet.add(qq);
-                treeSet.add(qq);
-                treeSet.add(qq);
-            }
-        }
+        long startHash = System.currentTimeMillis();
+        hashSet.addAll(Countries.names(10000));
+        long endHash = System.currentTimeMillis();
+
+        long starTree = System.currentTimeMillis();
+        treeSet.addAll(Countries.names(10000));
+        long endTree = System.currentTimeMillis();
+
+        long startLinked = System.currentTimeMillis();
+        linkedHashSet.addAll(Countries.names(10000));
+        long endLinked = System.currentTimeMillis();
+
+        System.out.println("hashSet: " + (endHash-startHash) + " , treeSet: " + (endTree-starTree) +
+                                        " , linkedHashSet: " + (endLinked-startLinked));
 
         //there are no copies in the set
         System.out.println(hashSet);
