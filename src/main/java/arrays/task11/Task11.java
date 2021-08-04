@@ -7,15 +7,22 @@ public class Task11 {
     public static void main(String[] args) {
 
         //int[] b = new Integer[] {1,1,1}; // doesn't work
-
         //but here all work
-        int[] a = new int[3];
-        a[0] = new Integer(0);
+        int[] a = new int[2];
+        a[0] = 0;
         a[1] = 1;
-        a[2] = new Integer(2);
 
         System.out.println(a[0]);
         System.out.println(a[1]);
-        System.out.println(a[2]);
+
+        Integer[] b = new Integer[2];
+        b[0] = 0;
+        b[1] = 1;
+
+        System.out.println(b[0] instanceof Integer);
+
+        b[0] = a[0]; //autoboxing
+
+
     }
 }

@@ -9,19 +9,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task1/FilenameFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task1/TextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task10/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task14/Task14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task26/Task26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task6/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task6/PPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task6/ProcessFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I_O/task6/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/access_control/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/access_control/task3/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/access_control/task3/Task3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/access_control/task3/Task3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/task11/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task11/Task11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/task18/Task18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task18/Task18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/task20/Task20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task20/Task20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/task21/Task21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task21/Task21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/task11/Task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/task11/Task11.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +64,13 @@
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\type_information" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task6">
-    <configuration name="BufferedInputFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_O.task14.BufferedInputFile" />
+  <component name="RunManager" selected="Application.Task21">
+    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.task11.Task11" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_O.task14.*" />
+          <option name="PATTERN" value="arrays.task11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_O.task1.Task1" />
+    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.task18.Task18" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_O.task1.*" />
+          <option name="PATTERN" value="arrays.task18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_O.task14.Task14" />
+    <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.task20.Task20" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_O.task14.*" />
+          <option name="PATTERN" value="arrays.task20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_O.task26.Task26" />
+    <configuration name="Task21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.task21.Task21" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_O.task26.*" />
+          <option name="PATTERN" value="arrays.task21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task1" />
-      <item itemvalue="Application.BufferedInputFile" />
-      <item itemvalue="Application.Task14" />
-      <item itemvalue="Application.Task26" />
       <item itemvalue="Application.Task6" />
+      <item itemvalue="Application.Task11" />
+      <item itemvalue="Application.Task18" />
+      <item itemvalue="Application.Task20" />
+      <item itemvalue="Application.Task21" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task21" />
+        <item itemvalue="Application.Task20" />
+        <item itemvalue="Application.Task18" />
+        <item itemvalue="Application.Task11" />
         <item itemvalue="Application.Task6" />
-        <item itemvalue="Application.Task26" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Task14" />
-        <item itemvalue="Application.BufferedInputFile" />
       </list>
     </recent_temporary>
   </component>
