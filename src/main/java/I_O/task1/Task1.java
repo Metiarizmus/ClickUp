@@ -1,7 +1,6 @@
 package I_O.task1;
 
 import java.io.File;
-import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,21 +23,15 @@ public class Task1 {
             for (File q : files) {
                 list.add(q.getName());
 
-                if (q.isDirectory()) {
-                    filesFind(q,args,list);
-                }
             }
         }else {
             DirFilter dirFilter = new DirFilter(args[0]);
 
             for (File q : files) {
-                if (dirFilter.accept(file,q.getName())){
+                if (dirFilter.accept(q.getName())){
                     list.add(q.getName());
                 }
 
-                if (q.isDirectory()) {
-                    filesFind(q,args,list);
-                }
             }
         }
 
@@ -65,7 +58,7 @@ class DirFilter implements FilenameFilter {
     public DirFilter(String regex) {
         pattern = Pattern.compile(regex);
     }
-    public boolean accept(File dir, String name) {
+    public boolean accept( String name) {
         return pattern.matcher(name).matches();
     }
 }

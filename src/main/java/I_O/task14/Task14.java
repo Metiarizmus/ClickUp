@@ -3,10 +3,12 @@ package I_O.task14;
 import java.io.*;
 
 /*
-Exercise 14: (2) Starting with BasicFileOutput.java, write a program that compares the performance of writing to a file when using buffered and unbuffered I/O.
+Exercise 14: (2) Starting with BasicFileOutput.java, write a program that compares the performance of writing to
+a file when using buffered and unbuffered I/O.
 */
 public class Task14 {
-    static String file = "G:/csvOutput.txt";
+    private static String writeFile = "G:/csvOutput.txt";
+    private static String readFile = "G:/csvInput.txt";
 
     public static void main(String[] args) throws IOException {
         long startUnbuf = System.currentTimeMillis();
@@ -22,9 +24,8 @@ public class Task14 {
     }
 
     static void usingBuf() throws IOException {
-        BufferedReader in = new BufferedReader(new StringReader(BufferedInputFile.read("G:/csvInput.txt")));
-
-        PrintWriter out = new PrintWriter(file);
+        BufferedReader in = new BufferedReader(new StringReader(BufferedInputFile.read(readFile)));
+        PrintWriter out = new PrintWriter(writeFile);
 
         int lineCount = 1;
         String s;
@@ -34,20 +35,19 @@ public class Task14 {
         }
 
         out.close();
-
+        in.close();
     }
 
     static void usingUnbuf() throws IOException {
-        BufferedReader in = new BufferedReader( new StringReader(BufferedInputFile.read("G:/csvInput.txt")));
-        PrintWriter out = new PrintWriter(new FileWriter(file));
-        int lineCount = 1;
-        String s;
-        while((s = in.readLine()) != null ){
-            out.println(lineCount++ + ": " + s);
+        FileOutputStream fos = new FileOutputStream(writeFile);
+        FileInputStream fis = new FileInputStream(readFile);
+
+        while (fis.read() != -1) {
+            fos.write(fis.read());
         }
 
-        out.close();
-
+        fis.close();
+        fos.close();
     }
 }
 

@@ -10,7 +10,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/containers_in_Depth/task3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/I_O/task1/FilenameFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/I_O/task1/FilenameFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/I_O/task1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/I_O/task1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/I_O/task10/Task10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/I_O/task10/Task10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/I_O/task14/Task14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/I_O/task14/Task14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/I_O/task10/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/I_O/task10/Task10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/task21/BerylliumSphere.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/task21/BerylliumSphere.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arrays/task21/Task21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arrays/task21/Task21.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +66,13 @@
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\type_information" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task11.Task11" />
+  <component name="RunManager" selected="Application.Task14">
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I_O.task1.Task1" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task11.*" />
+          <option name="PATTERN" value="I_O.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task18.Task18" />
+    <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I_O.task10.Task10" />
       <module name="ClickUp" />
+      <option name="PROGRAM_PARAMETERS" value="G:/csvInput.txt room After" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task18.*" />
+          <option name="PATTERN" value="I_O.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.task20.Task20" />
+    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I_O.task14.Task14" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.task20.*" />
+          <option name="PATTERN" value="I_O.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task11" />
-      <item itemvalue="Application.Task18" />
-      <item itemvalue="Application.Task20" />
       <item itemvalue="Application.Task21" />
       <item itemvalue="Application.Task3" />
+      <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Task10" />
+      <item itemvalue="Application.Task14" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task14" />
+        <item itemvalue="Application.Task10" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Task21" />
-        <item itemvalue="Application.Task20" />
-        <item itemvalue="Application.Task18" />
-        <item itemvalue="Application.Task11" />
       </list>
     </recent_temporary>
   </component>

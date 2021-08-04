@@ -18,14 +18,19 @@ import java.io.IOException;
 import java.util.*;
 
 public class Task10 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         if (args.length == 0) {
             System.out.println("need more parameters in args");
             System.exit(0);
         }
 
-            List<String> list = read(args[0]);
+        List<String> list = null;
+        try {
+             list = read(args[0]);
+        } catch (IOException e) {
+            System.err.println("read exception");
+        }
 
             /*ListIterator<String> it = list.listIterator(list.size());
 
@@ -33,8 +38,11 @@ public class Task10 {
                 System.out.println(it.previous());
             }*/
 
-            System.out.println(searchWord(args));
-
+        try {
+            System.out.println(searchWord(args,list));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
     }
@@ -53,8 +61,8 @@ public class Task10 {
         return list;
     }
 
-    static List<String> searchWord(String[] args) throws IOException {
-        List<String> listFull = read(args[0]);
+    static List<String> searchWord(String[] args, List<String> listFull) throws IOException {
+
         List<String> sent = new ArrayList<>();
 
         for (int i = 0; i < listFull.size(); i++) {
