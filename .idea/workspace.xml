@@ -9,15 +9,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task1/Signal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task10/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task10/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task10/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task10/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task2/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enumerated_types/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/Constraints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/DBTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/Uniqueness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCleanup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/AtUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ClassNameFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ProcessFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/annotations/ExtractInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/classes/Divisioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/classes/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/service/InterfaceExtractorProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/service/InterfaceExtractorProcessorFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/I_O/task6/ProcessFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/I_O/task6/ProcessFiles.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +47,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -47,9 +65,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/enumerated_types" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/libraryJava/apt-mirror-api-0.2.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5968331" />
@@ -62,20 +85,20 @@
       <recent name="inner_classes.task26" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\annotations" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\enumerated_types" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\I_O" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\containers_in_Depth" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\arrays" />
-      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Task1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumerated_types.task1.Task1" />
+  <component name="RunManager" selected="Application.AtUnit">
+    <configuration name="AtUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.task11.service.AtUnit" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumerated_types.task1.*" />
+          <option name="PATTERN" value="annotations.task11.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="I_O.task14.Task14" />
+    <configuration name="Divisioner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.task2.classes.Divisioner" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="I_O.task14.*" />
+          <option name="PATTERN" value="annotations.task2.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.task2.classes.Multiplier" />
+      <module name="ClickUp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotations.task2.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.task1.Task1" />
+      <module name="ClickUp" />
+      <option name="PROGRAM_PARAMETERS" value="annotations.task1.Member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="annotations.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,37 +147,11 @@
       </method>
     </configuration>
     <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumerated_types.task2.Task2" />
+      <option name="MAIN_CLASS_NAME" value="annotations.task2.Task2" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enumerated_types.task2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumerated_types.task10.Test" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enumerated_types.task10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enumerated_types.task10.VendingMachine" />
-      <module name="ClickUp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="enumerated_types.task10.*" />
+          <option name="PATTERN" value="annotations.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task14" />
-      <item itemvalue="Application.Task1 (1)" />
+      <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Multiplier" />
+      <item itemvalue="Application.Divisioner" />
       <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.VendingMachine" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.AtUnit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.VendingMachine" />
+        <item itemvalue="Application.AtUnit" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Task1 (1)" />
-        <item itemvalue="Application.Task14" />
+        <item itemvalue="Application.Divisioner" />
+        <item itemvalue="Application.Multiplier" />
+        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
