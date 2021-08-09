@@ -9,32 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/DBTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/SQLString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task1/my_annotations/Uniqueness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCleanup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/AtUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/BinaryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ClassNameFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ProcessFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/annotations/ExtractInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/classes/Divisioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/classes/Multiplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/service/InterfaceExtractorProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task2/service/InterfaceExtractorProcessorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/TestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/handler_annotation/HandlerAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/I_O/task6/ProcessFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/I_O/task6/ProcessFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCleanup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCreate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/AtUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/BinaryFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ClassNameFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ProcessFiles.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +35,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,7 +78,7 @@
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AtUnit">
+  <component name="RunManager" selected="Application.Task11">
     <configuration name="AtUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="annotations.task11.service.AtUnit" />
       <module name="ClickUp" />
@@ -132,13 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task1.Task1" />
+    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="annotations.task11.Task11" />
       <module name="ClickUp" />
-      <option name="PROGRAM_PARAMETERS" value="annotations.task1.Member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task1.*" />
+          <option name="PATTERN" value="annotations.task11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Task1" />
       <item itemvalue="Application.Multiplier" />
       <item itemvalue="Application.Divisioner" />
       <item itemvalue="Application.Task2" />
       <item itemvalue="Application.AtUnit" />
+      <item itemvalue="Application.Task11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task11" />
         <item itemvalue="Application.AtUnit" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Divisioner" />
         <item itemvalue="Application.Multiplier" />
-        <item itemvalue="Application.Task1" />
       </list>
     </recent_temporary>
   </component>
