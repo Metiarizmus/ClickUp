@@ -9,18 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bb611bb-8722-41e5-b1c2-7a9c7043d426" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/TestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/handler_annotation/HandlerAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task2/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task26/BusBoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task26/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task26/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task26/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task26/WaitPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task31/Chopstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task31/DeadlockingDiningPhilosophers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task31/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/ClientsGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/ServerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/WebClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/WebClientsLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task35/web_service/WebServiceSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task5/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concurrency/task6/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotations/task11/Task11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCleanup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestObjectCreate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/annotations/TestProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/AtUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/BinaryFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ClassNameFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/annotations/task11/service/ProcessFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/annotations/task11/Task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/annotations/task11/Task11.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +67,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/libraryJava/apt-mirror-api-0.2.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/concurrency" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5968331" />
@@ -71,20 +80,20 @@
       <recent name="inner_classes.task26" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\concurrency" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\annotations" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\enumerated_types" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\I_O" />
       <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\containers_in_Depth" />
-      <recent name="C:\Users\Николай\IdeaProjects\ClickUp\src\main\java\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task11">
-    <configuration name="AtUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task11.service.AtUnit" />
+  <component name="RunManager" selected="Application.WebServiceSimulation">
+    <configuration name="BankTellerSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.task35.bank_teller.BankTellerSimulation" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task11.service.*" />
+          <option name="PATTERN" value="concurrency.task35.bank_teller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Divisioner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task2.classes.Divisioner" />
+    <configuration name="ClientsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.task35.web_service.ClientsGenerator" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task2.classes.*" />
+          <option name="PATTERN" value="concurrency.task35.web_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task2.classes.Multiplier" />
+    <configuration name="DeadlockingDiningPhilosophers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.task31.DeadlockingDiningPhilosophers" />
       <module name="ClickUp" />
+      <option name="PROGRAM_PARAMETERS" value="0 4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task2.classes.*" />
+          <option name="PATTERN" value="concurrency.task31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task11.Task11" />
+    <configuration name="ServerManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.task35.web_service.ServerManager" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task11.*" />
+          <option name="PATTERN" value="concurrency.task35.web_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="annotations.task2.Task2" />
+    <configuration name="WebServiceSimulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.task35.web_service.WebServiceSimulation" />
       <module name="ClickUp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="annotations.task2.*" />
+          <option name="PATTERN" value="concurrency.task35.web_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Multiplier" />
-      <item itemvalue="Application.Divisioner" />
-      <item itemvalue="Application.Task2" />
-      <item itemvalue="Application.AtUnit" />
-      <item itemvalue="Application.Task11" />
+      <item itemvalue="Application.DeadlockingDiningPhilosophers" />
+      <item itemvalue="Application.BankTellerSimulation" />
+      <item itemvalue="Application.ClientsGenerator" />
+      <item itemvalue="Application.WebServiceSimulation" />
+      <item itemvalue="Application.ServerManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task11" />
-        <item itemvalue="Application.AtUnit" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Divisioner" />
-        <item itemvalue="Application.Multiplier" />
+        <item itemvalue="Application.WebServiceSimulation" />
+        <item itemvalue="Application.ServerManager" />
+        <item itemvalue="Application.ClientsGenerator" />
+        <item itemvalue="Application.BankTellerSimulation" />
+        <item itemvalue="Application.DeadlockingDiningPhilosophers" />
       </list>
     </recent_temporary>
   </component>
